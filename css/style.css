@@ -47,3 +47,21 @@ h1,h2,h3,h4,h5{
 .text-lg {
     font-size: 46px;
 }
+@media(max-width: 800px) {
+    #grid {
+        grid-template-columns: 1fr 1fr
+    }
+}
+@media(max-width: 600px) {
+    #main-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 30px;
+    }
+    #grid {
+        grid-template-columns: 1fr
+    }
+    .sm-no-show {
+        display: none;
+    }
+}

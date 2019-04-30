@@ -44,7 +44,7 @@ if(hours > 12 ) {
                      `;
 
                      temperatureContent.innerHTML = `
-                     <h1>Currently :</h1>
+                     <h1 class="sm-no-show">Currently :</h1>
                      <h1 class="text-lg">${Math.floor((temperature * (5/9)))} <sup>o</sup> C</h1>
                      `
                     
