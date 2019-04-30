@@ -38,7 +38,7 @@ if(hours > 12 ) {
                 .then((res) => { 
                     let { cloudCover,humidity, ozone, windSpeed, icon, temperature } = res.data.currently
                      locationTimezone.innerHTML = `
-                     <h4>${res.data.timezone}</h4>
+                     <h4>Current Location: ${res.data.timezone}</h4>
                      <h1 class="text-lg">${hours} : ${minutes} ${format}</h1>
                      <p>${res.data.hourly.summary}</p>
                      `;
