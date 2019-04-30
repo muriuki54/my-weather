@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section id="main-section">
+        
+        <div class="location">
+            <div class="location-timezone"></div>
+        </div>
+         <div class="weather-icon">
+            <div class="temp"></div>
+            <canvas id="icon1" width="150" height="150"></canvas>
+        </div>
+    </section>
+
+    <section id="grid">
+        <div class="details-1">
+            <h4>Cloud cover</h4>
+            <canvas id="det1" width="128" height="128"></canvas>
+        </div>
+        <div class="details-2">
+            <h4>Wind Speed</h4>
+            <canvas id="det2" width="128" height="128"></canvas>
+        </div>
+        <div class="details-3">
+            <h4>Ozone Layer</h4>
+            <canvas id="det3" width="128" height="128"></canvas>
+        </div>
+        <div class="details-4">
+            <h4>Humidity</h4>
+            <canvas id="det4" width="128" height="128"></canvas>
+        </div>
+    </section>
+    <script src="./js/skycons.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
